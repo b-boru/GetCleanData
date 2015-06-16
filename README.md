@@ -7,8 +7,7 @@ and produces a tidy data subset.
 
 To generate this dataset, just run the `run_analysis.R` script. There is no argument nor parameters.
 
-This script expects to find the original dataset files (e.g. `features.txt`, `test/*`, `train/*`, etc)
-in the same directory.
+This script expects to find the original dataset files in the `./UCI HAR Dataset` directory. If necessary, it will download and unzip the data set from the URL above
 
 It produces a tidy dataset, and saves it in a file named `meanFeatures.txt`.
 
